@@ -53,5 +53,5 @@ with open(file_to_load) as financial_data:
 
 
 # Write the results to a text file
-with open(file_to_output, "w") as txt_file:
+ with open(file_to_output, "w") as txt_file:
     txt_file.write(output)
